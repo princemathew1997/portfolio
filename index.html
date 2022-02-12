@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ᎮᏒᎥᏁᏟᎬ</title>
+    <link rel="shortcut icon" type="image" href="images/chess-king-solid.svg">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script> 
+
+    <!-- !sweetalert cdn  -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="loader_bg">
+        <div class="loader"></div>
+    </div>
+
+    <!-- nav overlay -->
+    <div class="nav-overlay">
+        <a class="toggle-nav"><i class="fa fa-times"></i></a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">projects</a>
+        <a href="#contactme">contactme</a>
+    </div>
+    <!-- end nav overlay -->
+
+    <!-- main nav -->
+    <nav>
+        <div class="container nav">
+            <span>Prince Mathew</span>
+            <div class="nav-items">
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contactme">contactme</a>
+
+                <a class="toggle-nav"><i class="fa fa-bars"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-- end main nav -->
+
+    <!-- hero content -->
+    <section class="bg-hero">
+
+        <div id="shape-circle-1" class="shape"></div>
+        <div id="shape-circle-2" class="shape"></div>
+
+        <div class="container flex">
+            <div class="col-3">
+                <h1>Web Developer</h1>
+                <h2>fullstack engineer</h2>
+            </div>
+            <div class="col-2">
+                <div class="tablet">
+                    <div class="tablet-camera"><span></span></div>
+                    <div class="tablet-screen">
+                        <div class="screen-line-number">
+                            1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14<br>15
+                        </div>
+                        <div class="screen-code-comment">
+                            /**<br>&nbsp;*<br>&nbsp;*<br>&nbsp;*<br>&nbsp;*<br>&nbsp;*/
+                        </div>
+                        <div class="screen-text col">
+                            <br>
+                            <span>Hey!</span><br>
+                            <span>My name is prince</span><br>
+                            <span>and I have a passion for</span><br>
+                            <span>the web!</span><br>
+                            <br><br>
+                            <div class="screen-code">
+                                <span class="code-blue">function</span>&nbsp;<span class="code-green">letsDo</span>(){
+                                <br>
+                                <span>&nbsp;&nbsp;&nbsp;&nbsp;// something amazing</span>
+                                <br>
+                                }
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end hero content -->
+
+    <!-- skills -->
+    <section id="skills" class="bg-dark angle-right-top angle-right-bottom">
+        <div class="container skills padding-v-lg">
+            <div value="-1" class="slider-arrow text-center">&lsaquo;</div>
+            <div class="col">
+                <h2 class="text-center secondary-header text-white">Skills</h2>
+
+                <!-- skill slider -->
+                <div class="skill" style="display: none">
+                    <h4 class="text-white">Frontend</h4>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>CSS3</li>
+                        <li>HTML5</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+
+                <div class="skill" style="display: none">
+                    <h4 class="text-white">Backend</h4>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>Sqlite</li>
+                        <li>Hosting</li>
+                    </ul>
+                </div>
+
+                <div class="skill" style="display: none">
+                    <h4 class="text-white">Tools</h4>
+                    <ul>
+                        <li>Github</li>
+                        <li>GIT</li>
+                    </ul>
+                </div>
+
+                <div class="skill" style="display: none">
+                    <h4 class="text-white">Soft Skills</h4>
+                    <ul>
+                        <li>Excellent Communicator</li>
+                        <li>Problem Solver</li>
+                        <li>Analytical</li>
+                        <li>Focused</li>
+                        <li>Friendly</li>
+                    </ul>
+                </div>
+
+                <div class="skill" style="display: none">
+                    <h4 class="text-white">Spoken Languages</h4>
+                    <ul>
+                        <li>English</li>
+                        <li>Malayalam</li>
+                        <li>Tamil</li>
+                    </ul>
+                </div>
+                <!-- end skill slider -->
+
+            </div>
+            <div value="1" class="slider-arrow text-center">&rsaquo;</div>
+        </div>
+    </section>
+    <!-- end skills -->
+
+    <!-- work -->
+    <section id="projects" class="bg-white">
+
+        <div id="shape-circle-3" class="shape"></div>
+        <div id="shape-circle-4" class="shape"></div>
+        <div id="shape-circle-5" class="shape"></div>
+        <div id="shape-circle-6" class="shape"></div>
+
+        <div class="container padding-v-lg">
+            <h2 class="text-center padding-md">My <br><span class="text-brand">Work</span></h2>
+
+             <!-- project 1 -->
+             <div class="flex showcase">
+                <div class="col-2">
+                    <div class="browser">
+                        <div class="browser-header">
+                            <i></i><i></i><i></i><i></i>
+                        </div>
+                        <div class="browser-body">
+                            <img class="d-block" src="images/Esaf.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 description">
+                    <h4>ESMACO</h4>
+                    <p>Web Page made for ESAF-Cooperative, which help them to see all the stuffs in one place. </p>
+                    <div class="technologies">
+                        <h5>Technologies used</h5>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>Bootsrap</span>
+                        <span>JavaScript</span>
+                    </div>  
+                </div>
+            </div>
+            <!-- end project 1 -->
+
+           
+            <div class="separator"><i></i><i></i><i></i></div>
+
+            <!-- project 2 -->
+            <div class="flex showcase">
+                <div class="col-3 order-2 description text-right">
+                    <h4>SAFELET</h4>
+                    <p>You are not alone.With the Safelet Safety Bracelet you can notify your Friends and Family where
+                        you are when you need help.</p>
+                    <div class="technologies">
+                        <h5>Technologies used</h5>
+                        <span>LilyPad Arduino</span>
+                        <span>SOS</span>
+                        <span>Bluetooth</span>
+                        <span>GPS</span>
+                    </div>
+                </div>
+                <div class="col-2 order-1">
+                    <div class="browser">
+                        <div class="browser-header">
+                            <i></i><i></i><i></i><i></i>
+                        </div>
+                        <div class="browser-body">
+                            <video width="320" height="240" controls loop>
+                                <source src="videos/Safelet.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <a class="btn btn-sm btn-dark" href="files/Final Report.pdf" target="_blank">
+                            <i class="fa fa-file-pdf-o"></i> View Document
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- end project 2 -->
+            <div class="separator"><i></i><i></i><i></i></div>
+
+             <!-- project 3 -->
+             <div class="flex showcase">
+                <div class="col-2">
+                    <div class="browser">
+                        <div class="browser-header">
+                            <i></i><i></i><i></i><i></i>
+                        </div>
+                        <div class="browser-body">
+                            <img class="d-block" src="images/calculator.png" alt="">
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <a class="btn btn-sm btn-dark" href="https://codepen.io/Princemathew1997/pen/VwreOjo"
+                            target="_blank">
+                            <i class="fa fa-external-link"></i> Try it
+                        </a>
+                        <a class="btn btn-sm btn-dark" href="https://codepen.io/Princemathew1997/pen/VwreOjo"
+                            target="_blank">
+                            <i class="fa fa-codepen"></i> View the code
+                        </a>
+                    </div>
+                </div>
+                <div class="col-3 description">
+                    <h4>Simple Calculator</h4>
+                    <p>Yes! Another Simple calculator... I learned about separating my view, model and controller as
+                        well as keeping track of data in the model. Through the power of CSS I have tried to make my
+                        calculator look like you could pick it up with your hands and start pushing the buttons.</p>
+                    <div class="technologies">
+                        <h5>Technologies used</h5>
+                        <span>Flexbox</span>
+                        <span>CSS</span>
+                        <span>HTML5</span>
+                    </div>
+                </div>
+            </div>
+            <!-- end project 3 -->
+
+
+           
+        </div>
+    </section>
+    <!-- end work -->
+
+    <!-- what I can do -->
+    <section class="bg-light angle-right-top">
+        <div class="container padding-v-lg">
+            <h2 class="text-center padding-md">
+                <span class="text-brand">What</span>
+                <br>I can do for you
+            </h2>
+            <div class="flex">
+                <div class="col padding-md text-center">
+                    <h4>Rock Solid Code</h4>
+                    <p>I'm a developer first and foremost, so I know how to create your website to run across devices
+                        using the latest technologies available.</p>
+                </div>
+                <div class="col padding-md text-center">
+                    <h4>Pixel Perfect Design</h4>
+                    <p>I like to keep it simple. My goals are to focus on typography, content and conveying the message
+                        that you want to send.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end what I can do -->
+
+    <!-- contact hero -->
+    <section id="contactme" class="bg-brand">
+
+        <div id="shape-circle-1" class="shape"></div>
+        <div id="shape-circle-2" class="shape"></div>
+
+        <div class="container padding-v-lg">
+            <div class="flex">
+                <div class="col">
+                    <h2 class="text-white text-center">I can <br><span>help!</span></h2>
+                </div>
+                <div class="col">
+                    <div id="blurb-box-1">
+                        <h4>I'm currently available for freelance work.</h4>
+                        <p>If you have a project that you want to get started with, think you need help with something
+                            or just fancy saying hey, then get in touch.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end contact hero -->
+
+    <!-- contact me -->
+    <section class="bg-dark angle-left-top">
+        <form class="contact" id="contact-form">
+            <input type="text" id="name" name="name" placeholder="name" required>
+            <input type="email" id="email" name="email" placeholder="email" required>
+            <textarea  type="text" name="message" id="message" placeholder="message" rows="8" required onfocus="clearContents(this);">Say something :)</textarea>
+            <button type="submit" id="submit" onclick="send(event)">Send >></button>
+        </form>
+    </section>
+    <!-- end contact me -->
+
+    <!-- footer -->
+    <footer>
+        <div class="container footer-main padding-v-md">
+            <h4 class="text-center">/** Or follow me on... */</h4>
+            <h3 class="text-center padding-sm">
+                <a href="" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="" target="_blank"><i
+                        class="fa fa-linkedin"></i></a>
+                <a href="mailto:meprincemathew97@gmail.com" target="_top"><i class="fa fa-envelope"></i></a>
+                <a href="https://codepen.io/Princemathew1997" target="_blank"><i class="fa fa-codepen"></i></a>
+            </h3>
+        </div>
+        <div class="footer-copyright text-white">
+            <h5 class="text-center">&copy; 2020 | Prince Mathew</h5>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src="./script.js"></script>
+
+    <!-- Preloading  effect begin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function () {
+            $('.loader_bg').fadeToggle();
+        }, 1500);
+
+// textarea active text removal
+        function clearContents(element) {
+        element.value = '';
+}
+    </script>
+    <!-- preloading effect ends -->
+</body>
+
+</html>
